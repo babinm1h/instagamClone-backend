@@ -10,7 +10,7 @@ import { passport } from "./middleware/passport.js"
 
 const app = express()
 const PORT = process.env.PORT || 7777
-const origins = ["http://localhost:3000"]
+const origins = ["http://localhost:3000", "https://neon-rolypoly-972222.netlify.app"]
 
 
 app.use(express.json())
